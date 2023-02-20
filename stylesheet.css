@@ -1,0 +1,42 @@
+body {
+  background-color: #D6E2F0;
+  font-family: 'Outfit', sans-serif ;
+}
+
+#QRbackground {
+  background-color:white;
+  border-radius: 18px;
+  margin: 140px 450px 0px 450px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 12px;
+}
+
+figcaption {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#text1 {
+  font-size: larger;
+  font-weight: 700; 
+}
+
+#text2 {
+    font-size: 15px;
+    color: 	#7B879D;
+    font-weight: 500;
+}
+
+footer {
+  padding-top: 280px;
+}
