@@ -32,7 +32,10 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  display: grid;
+  place-items: center;
   min-height: 100vh;
+  min-width: 100vh;
   text-rendering: optimizeSpeed;
   background-color: #D6E2F0;
   text-align: center;
@@ -49,6 +52,9 @@ img,
 picture {
   display: block;
   border-radius: 18px;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
   
 }
 
@@ -79,13 +85,14 @@ select {
 main {
   display: grid;
   justify-content:center;
+  padding: 90px;
 }
 
 .qrbackground {
   background-color:white;
   border-radius: 20px;
   padding-top: 20px;
-  width: 39rem;
+  width: 28rem;
   padding-bottom: 50px;
   margin: auto;
 }
@@ -94,10 +101,14 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
+
+  
 }
 
-h3{
-font-size: 2rem;
+h1{
+margin-top: 30px;
+font-size: 30px;
 font-family: 'Outfit', sans-serif;
 line-height: normal;
 width: 25rem;
@@ -110,6 +121,6 @@ color: 	#7B879D;
 width: 25rem;
 padding-top: 20px;
 font-size: larger;
+margin-bottom: 20px;
 }
-
 
